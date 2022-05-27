@@ -63,12 +63,22 @@ function App() {
           </div>
         </article>
         <article id="portfolio">
-          <h2 className="h2">* * * Section in update * * *</h2>
+          <h2 className="h2">Some of my projects</h2>
           <div className="block3">
+          <div>
             <img
               src="https://png.pngitem.com/pimgs/s/207-2073499_translate-platform-from-english-to-spanish-work-in.png"
-              alt="in update"
+              alt="quote_generator"
             />
+            <h3>random quotes generator</h3>
+          </div>
+          <div>
+            <img
+              src="https://png.pngitem.com/pimgs/s/207-2073499_translate-platform-from-english-to-spanish-work-in.png"
+              alt="quote_generator"
+            />
+            <h3>idea board (clearscore challenge)</h3>
+          </div>
           </div>
         </article>
         <div className="block4"></div>
