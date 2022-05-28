@@ -22,7 +22,7 @@ function App() {
           </div>
         </nav>
       </header>
-      <main className="body">
+      <main>
         <article id="home">
           <div className="leveling">
             <p className="p" id="info">
@@ -65,20 +65,24 @@ function App() {
         <article id="portfolio">
           <h2 className="h2">Some of my projects</h2>
           <div className="block3">
-          <div>
-            <img
-              src="https://png.pngitem.com/pimgs/s/207-2073499_translate-platform-from-english-to-spanish-work-in.png"
-              alt="quote_generator"
-            />
-            <h3>random quotes generator</h3>
-          </div>
-          <div>
-            <img
-              src="https://png.pngitem.com/pimgs/s/207-2073499_translate-platform-from-english-to-spanish-work-in.png"
-              alt="quote_generator"
-            />
-            <h3>idea board (clearscore challenge)</h3>
-          </div>
+            <div>
+              <a href="https://random-quotes-generator-xi.vercel.app/">
+                <img
+                  src="https://png.pngitem.com/pimgs/s/207-2073499_translate-platform-from-english-to-spanish-work-in.png"
+                  alt="quote_generator"
+                />
+                <h3>random quotes generator</h3>
+              </a>
+            </div>
+            <div>
+            <a href="https://clearscore-tech-test.vercel.app/">
+              <img
+                src="https://png.pngitem.com/pimgs/s/207-2073499_translate-platform-from-english-to-spanish-work-in.png"
+                alt="quote_generator"
+              />
+              <h3>idea board (clearscore challenge)</h3>
+              </a>
+            </div>
           </div>
         </article>
         <div className="block4"></div>
