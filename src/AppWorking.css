@@ -30,7 +30,7 @@ body {
   display: flex;
   justify-content: flex-end;
 }
-.pic1 {
+.profilePic {
   justify-content: flex-end;
   min-width: 200px;
   width: 40%;
@@ -48,7 +48,7 @@ body {
 .block4 {
   height: 200px;
 }
-.pic2 {
+.casinoPic {
   height: auto;
   width: 40%;
   min-width: 300px;
@@ -65,5 +65,3 @@ body {
   background: linear-gradient(90deg, #79c49e, #ffffff);
   color: #000000;
 }
-
-/* range media 0-480, 481-768, 769-1279. 1280+ */

@@ -32,7 +32,7 @@ function App() {
             </p>
             <div className="block1" id="img-div">
               <img
-                className="pic1"
+                className="profilePic"
                 src="https://live.staticflickr.com/65535/52012232147_c8a96a5300_b.jpg"
                 alt="profile"
               />
@@ -42,11 +42,7 @@ function App() {
         <article>
           <div className="leveling">
             <div className="block2">
-              <img
-                className="pic2"
-                src="https://tipsmake.com/data0/mimages/How-to-Make-an-Online-Casino-App-for-Free.jpg"
-                alt="slot"
-              />
+              
               <p className="p" id="background">
                 Born in Italy in 1985, I lived withing the country until 30 y/o
                 when I decided to change my live starting to study to become a
@@ -59,6 +55,11 @@ function App() {
                 code.
                 <br></br>
               </p>
+              <img
+                className="casinoPic"
+                src="https://tipsmake.com/data0/mimages/How-to-Make-an-Online-Casino-App-for-Free.jpg"
+                alt="slot"
+              />
             </div>
           </div>
         </article>
@@ -68,6 +69,7 @@ function App() {
             <div>
               <a href="https://random-quotes-generator-xi.vercel.app/">
                 <img
+                  className="screenshot"
                   src="https://png.pngitem.com/pimgs/s/207-2073499_translate-platform-from-english-to-spanish-work-in.png"
                   alt="quote_generator"
                 />
@@ -75,12 +77,13 @@ function App() {
               </a>
             </div>
             <div>
-            <a href="https://clearscore-tech-test.vercel.app/">
-              <img
-                src="https://png.pngitem.com/pimgs/s/207-2073499_translate-platform-from-english-to-spanish-work-in.png"
-                alt="quote_generator"
-              />
-              <h3>idea board (clearscore challenge)</h3>
+              <a href="https://clearscore-tech-test.vercel.app/">
+                <img
+                  className="screenshot"
+                  src="https://png.pngitem.com/pimgs/s/207-2073499_translate-platform-from-english-to-spanish-work-in.png"
+                  alt="quote_generator"
+                />
+                <h3>idea board (clearscore challenge)</h3>
               </a>
             </div>
           </div>

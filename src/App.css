@@ -9,15 +9,32 @@ body {
 }
 
 .a {
-  margin-right: 20px;
+  margin-right: 0.5em;
   text-decoration: none;
 }
 
-.pic1 {
+.profilePic {
   width: 50%;
   height: auto;
 }
 
-.pic2 {
+.casinoPic {
   display: none;
+}
+
+.screenshot {
+  width: 80%;
+  height: auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .profilePic {
+    width: 40%;
+    height: auto;
+  }
+
+  .casinoPic {
+    display: block;
+    max-width: 40em;
+  }
 }
