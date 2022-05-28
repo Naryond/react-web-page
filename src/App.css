@@ -7,14 +7,14 @@ body {
   color: #000000;
 }
 .h1 {
-  padding: 1%;
+  padding: 1em;
 }
 .nav {
-  padding: 1%;
+  padding: 1em;
 }
 .list {
   display: inline;
-  margin-right: 20px;
+  margin-right: 1em;
 }
 .a {
   display: inline;
@@ -65,3 +65,5 @@ body {
   background: linear-gradient(90deg, #79c49e, #ffffff);
   color: #000000;
 }
+
+/* range media 0-480, 481-768, 769-1279. 1280+ */
