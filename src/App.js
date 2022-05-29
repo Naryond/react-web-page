@@ -5,21 +5,19 @@ function App() {
     <div>
       <header className="header" id="title">
         <h1 className="h1">Giuseppe Valeriani</h1>
-        <nav className="nav">
-          <div className="list">
-            <a className="a" href="#title">
-              Home
-            </a>
-            <a className="a" href="#background">
-              Background
-            </a>
-            <a className="a" href="#portfolio">
-              Portfolio
-            </a>
-            <a className="a" href="#contacts">
-              Contacts
-            </a>
-          </div>
+        <nav className="list">
+          <a className="a" href="#title">
+            Home
+          </a>
+          <a className="a" href="#background">
+            Background
+          </a>
+          <a className="a" href="#portfolio">
+            Portfolio
+          </a>
+          <a className="a" href="#contacts">
+            Contacts
+          </a>
         </nav>
       </header>
       <main>
@@ -42,7 +40,6 @@ function App() {
         <article>
           <div className="leveling">
             <div className="block2">
-              
               <p className="p" id="background">
                 Born in Italy in 1985, I lived withing the country until 30 y/o
                 when I decided to change my live starting to study to become a

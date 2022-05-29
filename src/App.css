@@ -37,4 +37,25 @@ body {
     display: block;
     max-width: 40em;
   }
+
+  .block3 {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .screenshot {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .h1 {
+    font-size: x-large;
+  }
+
+  .profilePic {
+    width: 20%;
+    height: auto;
+  }
 }
