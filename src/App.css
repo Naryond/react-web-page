@@ -3,6 +3,10 @@ body {
   background-color: #e5e9ff;
 }
 
+.h1 {
+  text-transform: uppercase;
+}
+
 .list {
   display: inline;
   margin-right: 1em;
@@ -28,6 +32,11 @@ body {
 }
 
 @media only screen and (min-width: 768px) {
+  .h1 {
+    letter-spacing: 0.1em;
+    font-weight: 650;
+  }
+
   .profilePic {
     width: 40%;
     height: auto;
@@ -51,7 +60,8 @@ body {
 
 @media only screen and (min-width: 1200px) {
   .h1 {
-    font-size: x-large;
+    letter-spacing: 0.1em;
+    font-weight: 650;
   }
 
   .profilePic {
