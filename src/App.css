@@ -12,18 +12,15 @@ body {
   margin-right: 1em;
 }
 
-.a {
+.links {
   margin-right: 0.5em;
   text-decoration: none;
+  font-style: italic;
 }
 
 .profilePic {
   width: 50%;
   height: auto;
-}
-
-.casinoPic {
-  display: none;
 }
 
 .screenshot {
@@ -37,24 +34,32 @@ body {
     font-weight: 650;
   }
 
+  .aside {
+    display: flex;
+  }
+
   .profilePic {
-    width: 40%;
+    width: 100%;
     height: auto;
   }
 
-  .casinoPic {
+  .history {
     display: block;
-    max-width: 40em;
+    padding: 1em;
   }
 
   .block3 {
     display: flex;
-    justify-content: flex-start;
   }
 
   .screenshot {
     width: 80%;
     height: auto;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
   }
 }
 
@@ -67,5 +72,10 @@ body {
   .profilePic {
     width: 20%;
     height: auto;
+  }
+
+  .footer {
+    position: absolute;
+    bottom: 0;
   }
 }
