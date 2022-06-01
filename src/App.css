@@ -21,8 +21,8 @@ body {
 .profilePic {
   width: 50%;
   height: auto;
-  border-radius:15%;
-  border-style:groove;
+  border-radius: 15%;
+  border-style: groove;
 }
 
 .screenshot {
@@ -32,6 +32,9 @@ body {
   border-radius: 10%;
 }
 
+.screenshot:hover {
+  transform: scale(1.02);
+}
 @media only screen and (min-width: 768px) {
   .h1 {
     letter-spacing: 0.1em;
@@ -59,7 +62,6 @@ body {
   .screenshot {
     width: 20em;
     height: 15em;
-    
   }
 
   .footer {
