@@ -53,8 +53,9 @@ body {
   }
 
   .screenshot {
-    width: 80%;
-    height: auto;
+    width: 20em;
+    height: 15em;
+    
   }
 
   .footer {

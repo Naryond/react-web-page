@@ -1,5 +1,4 @@
 import "./App.css";
-import './ideaBoard.jpg'
 
 function App() {
   return (
@@ -59,7 +58,7 @@ function App() {
         <article id="portfolio">
           <h2 className="h2">Some of my projects</h2>
           <div className="block3">
-            <div>
+            <div style={{margin: 10}}>
               <a href="https://random-quotes-generator-xi.vercel.app/">
                 <img
                   className="screenshot"
@@ -73,7 +72,7 @@ function App() {
               <a href="https://clearscore-tech-test.vercel.app/">
                 <img
                   className="screenshot"
-                  src='ideaBoard.jpg'
+                  src="https://i.ibb.co/3fnc6fm/idea-Board.jpg"
                   alt="idea_board"
                 />
                 <h3>idea board (clearscore challenge)</h3>
