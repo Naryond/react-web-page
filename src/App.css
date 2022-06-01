@@ -21,11 +21,15 @@ body {
 .profilePic {
   width: 50%;
   height: auto;
+  border-radius:15%;
+  border-style:groove;
 }
 
 .screenshot {
   width: 80%;
   height: auto;
+  border-style: groove;
+  border-radius: 10%;
 }
 
 @media only screen and (min-width: 768px) {
