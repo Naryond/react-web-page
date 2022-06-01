@@ -58,11 +58,11 @@ function App() {
         <article id="portfolio">
           <h2 className="h2">Some of my projects</h2>
           <div className="block3">
-            <div style={{margin: 10}}>
+            <div style={{ marginRight: 10 }}>
               <a href="https://random-quotes-generator-xi.vercel.app/">
                 <img
                   className="screenshot"
-                  src="https://png.pngitem.com/pimgs/s/207-2073499_translate-platform-from-english-to-spanish-work-in.png"
+                  src="https://i.ibb.co/tmj6D1X/random-Quote.jpg"
                   alt="quote_generator"
                 />
                 <h3>random quotes generator</h3>
