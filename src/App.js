@@ -4,7 +4,12 @@ function App() {
   return (
     <div>
       <header className="header" id="title">
-        <h1 className="h1">Giuseppe Valeriani</h1>
+        <h1 className="h1">
+          You THINK it,
+          <br />I DEVELOP it.
+        </h1>
+
+        <h5>It's easy! I'm a sofware developer.</h5>
         <nav className="list">
           <a className="links" href="#title">
             Home

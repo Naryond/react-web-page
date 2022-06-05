@@ -3,7 +3,8 @@ body {
 }
 
 .h1 {
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
+  font-family: "Raleway";  
 }
 
 .list {
