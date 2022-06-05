@@ -10,9 +10,14 @@ function App() {
         </h1>
         <h5 className="subtext">It's easy! I'm a front end developer.</h5>
       </header>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <main id="home">
         <article id="portfolio">
-          <h3 className="h3">Some of my projects</h3>
+          <h3 className="h3">Here some of my projects</h3>
           <div className="projects">
             <div style={{ marginRight: 10 }}>
               <a href="https://random-quotes-generator-xi.vercel.app/">
