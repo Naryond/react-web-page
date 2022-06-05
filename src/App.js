@@ -4,17 +4,14 @@ function App() {
   return (
     <div>
       <header className="header" id="title">
-        <h1 className="h1">
-          You THINK it,
-          <br />I DEVELOP it.
-        </h1>
-        <h5 className="subtext">It's easy! I'm a front end developer.</h5>
+        <div className="pushbox">
+          <h1 className="h1">
+            You THINK it,
+            <br />I DEVELOP it.
+          </h1>
+          <h5 className="subtext">It's easy! I'm a front end developer.</h5>
+        </div>
       </header>
-      <br />
-      <br />
-      <br />
-      <br />
-      <br />
       <main id="home">
         <article id="portfolio">
           <h3 className="h3">Here some of my projects</h3>
