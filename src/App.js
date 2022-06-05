@@ -61,7 +61,7 @@ function App() {
                   become a Casino Dealer. Having had 10 years of experience in
                   the Gambling Industry that was an easy step to make, and in 6
                   months I succesfully completed my course and moved in the
-                  United Kingdom where I immediately started to work./<br></br>{" "}
+                  United Kingdom where I immediately started to work.<br></br>
                   After 6 years I realize I needed a new professional challenge
                   and decided to focus more on what I love. Therefore I started
                   to learn how to code.
