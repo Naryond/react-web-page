@@ -8,33 +8,42 @@ function App() {
           You THINK it,
           <br />I DEVELOP it.
         </h1>
-
-        <h5>It's easy! I'm a sofware developer.</h5>
-        <nav className="list">
-          <a className="links" href="#title">
-            Home
-          </a>
-          <a className="links" href="#background">
-            Background
-          </a>
-          <a className="links" href="#portfolio">
-            Portfolio
-          </a>
-          <a className="links" href="#contacts">
-            Contacts
-          </a>
-        </nav>
+        <h5 className="subtext">It's easy! I'm a front end developer.</h5>
       </header>
       <main id="home">
+        <article id="portfolio">
+          <h3 className="h3">Some of my projects</h3>
+          <div className="projects">
+            <div style={{ marginRight: 10 }}>
+              <a href="https://random-quotes-generator-xi.vercel.app/">
+                <img
+                  className="screenshot"
+                  src="https://i.ibb.co/tmj6D1X/random-Quote.jpg"
+                  alt="quote_generator"
+                />
+                <h3>Random Quotes Generator</h3>
+              </a>
+            </div>
+            <div>
+              <a href="https://clearscore-tech-test.vercel.app/">
+                <img
+                  className="screenshot"
+                  src="https://i.ibb.co/3fnc6fm/idea-Board.jpg"
+                  alt="idea_board"
+                />
+                <h3>Idea Board (clearscore challenge)</h3>
+              </a>
+            </div>
+          </div>
+        </article>
         <div className="leveling">
           <p className="p" id="info">
-            I am a Front End Developer based in London (U.K.)
-            <br />
-            Here some informations regarding myself and my career.{" "}
+            I am <strong>Giuseppe Valeriani</strong> and I am based in London
+            (U.K.)
           </p>
         </div>
         <div className="aside">
-          <div className="block1" id="img-div">
+          <div className="personal" id="img-div">
             <img
               className="profilePic"
               src="https://live.staticflickr.com/65535/52012232147_c8a96a5300_b.jpg"
@@ -60,32 +69,6 @@ function App() {
             </div>
           </article>
         </div>
-        <article id="portfolio">
-          <h2 className="h2">Some of my projects</h2>
-          <div className="block3">
-            <div style={{ marginRight: 10 }}>
-              <a href="https://random-quotes-generator-xi.vercel.app/">
-                <img
-                  className="screenshot"
-                  src="https://i.ibb.co/tmj6D1X/random-Quote.jpg"
-                  alt="quote_generator"
-                />
-                <h3>random quotes generator</h3>
-              </a>
-            </div>
-            <div>
-              <a href="https://clearscore-tech-test.vercel.app/">
-                <img
-                  className="screenshot"
-                  src="https://i.ibb.co/3fnc6fm/idea-Board.jpg"
-                  alt="idea_board"
-                />
-                <h3>idea board (clearscore challenge)</h3>
-              </a>
-            </div>
-          </div>
-        </article>
-        <div className="block4"></div>
       </main>
       <footer className="footer" id="contacts">
         <a className="links" href="giuggey85@gmail.com" target="_blank">

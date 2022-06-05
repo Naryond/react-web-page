@@ -4,18 +4,20 @@ body {
 
 .h1 {
   /* text-transform: uppercase; */
-  font-family: "Raleway";  
+  font-family: "Raleway";
+  display: flex;
+  justify-content: center;
 }
 
-.list {
-  display: inline;
-  margin-right: 1em;
+.h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Raleway-Italic";
 }
 
-.links {
-  margin-right: 0.5em;
-  text-decoration: none;
-  font-style: italic;
+.subtext {
+  display: flex;
+  justify-content: center;
 }
 
 .profilePic {
@@ -23,6 +25,8 @@ body {
   height: auto;
   border-radius: 15%;
   border-style: groove;
+  display: flex;
+  justify-content: center;
 }
 
 .screenshot {
@@ -36,10 +40,20 @@ body {
   transform: scale(1.02);
 }
 
+.projects {
+  display: flex;
+  justify-content: center;
+}
+
+.personal {
+  display: flex;
+  justify-content: center;
+}
+
 @media only screen and (min-width: 768px) {
   .h1 {
-    letter-spacing: 0.1em;
-    font-weight: 650;
+    letter-spacing: 0.3em;
+    font-weight: 950;
   }
 
   .aside {
@@ -56,7 +70,7 @@ body {
     padding: 1em;
   }
 
-  .block3 {
+  .projects {
     display: flex;
   }
 
@@ -64,16 +78,11 @@ body {
     width: 20em;
     height: 15em;
   }
-  /* 
-  .footer {
-    position: absolute;
-    bottom: 0;
-  } */
 }
 
 @media only screen and (min-width: 1200px) {
   .h1 {
-    letter-spacing: 0.1em;
+    letter-spacing: 0.6em;
     font-weight: 650;
   }
 
@@ -81,9 +90,4 @@ body {
     width: 20%;
     height: auto;
   }
-
-  /* .footer {
-    position: absolute;
-    bottom: 0;
-  } */
 }
