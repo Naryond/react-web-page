@@ -16,25 +16,25 @@ function App() {
         <article id="portfolio">
           <h3 className="h3">Here some of my projects</h3>
           <div className="projects">
-            <div style={{ marginRight: 10 }}>
+            <div>
               <a href="https://random-quotes-generator-xi.vercel.app/">
                 <img
                   className="screenshot"
                   src="https://i.ibb.co/tmj6D1X/random-Quote.jpg"
                   alt="quote_generator"
                 />
-                <h3 className="h3">Random Quotes Generator</h3>
               </a>
+              <h3 className="line">Random Quotes Generator</h3>
             </div>
-            <div style={{ marginRight: 10 }}>
+            <div>
               <a href="https://clearscore-tech-test.vercel.app/">
                 <img
                   className="screenshot"
                   src="https://i.ibb.co/3fnc6fm/idea-Board.jpg"
                   alt="idea_board"
                 />
-                <h3 className="h3">Idea Board (clearscore challenge)</h3>
               </a>
+              <h3 className="line">Idea Board (Clearscore challenge)</h3>
             </div>
             <div>
               <a href="https://firebase-authentication-five.vercel.app/login/">
@@ -43,8 +43,8 @@ function App() {
                   src="https://i.ibb.co/HTp02cN/auth.png"
                   alt="login"
                 />
-                <h3 className="h3">Authentication with Firebase</h3>
               </a>
+              F<h3 className="line">Authentication with Firebase</h3>
             </div>
           </div>
         </article>
