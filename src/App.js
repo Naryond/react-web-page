@@ -36,6 +36,16 @@ function App() {
                 <h3>Idea Board (clearscore challenge)</h3>
               </a>
             </div>
+            <div>
+              <a href="https://firebase-authentication-five.vercel.app/login/">
+                <img
+                  className="screenshot"
+                  src="https://i.ibb.co/HTp02cN/auth.png"
+                  alt="login"
+                />
+                <h3>Authentication with Firebase</h3>
+              </a>
+            </div>
           </div>
         </article>
         <div className="leveling">
