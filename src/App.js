@@ -9,7 +9,7 @@ function App() {
             You THINK it,
             <br />I DEVELOP it.
           </h1>
-          <h5 className="subtext">It's easy! I'm a front end developer.</h5>
+          <h5 className="subtext">It's easy! I'm a Front End developer.</h5>
         </div>
       </header>
       <main id="home">
@@ -44,7 +44,7 @@ function App() {
                   alt="login"
                 />
               </a>
-              F<h3 className="line">Authentication with Firebase</h3>
+              <h3 className="line">Authentication with Firebase</h3>
             </div>
           </div>
         </article>
