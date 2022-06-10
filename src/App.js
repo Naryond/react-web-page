@@ -23,17 +23,17 @@ function App() {
                   src="https://i.ibb.co/tmj6D1X/random-Quote.jpg"
                   alt="quote_generator"
                 />
-                <h3>Random Quotes Generator</h3>
+                <h3 className="h3">Random Quotes Generator</h3>
               </a>
             </div>
-            <div>
+            <div style={{ marginRight: 10 }}>
               <a href="https://clearscore-tech-test.vercel.app/">
                 <img
                   className="screenshot"
                   src="https://i.ibb.co/3fnc6fm/idea-Board.jpg"
                   alt="idea_board"
                 />
-                <h3>Idea Board (clearscore challenge)</h3>
+                <h3 className="h3">Idea Board (clearscore challenge)</h3>
               </a>
             </div>
             <div>
@@ -43,7 +43,7 @@ function App() {
                   src="https://i.ibb.co/HTp02cN/auth.png"
                   alt="login"
                 />
-                <h3>Authentication with Firebase</h3>
+                <h3 className="h3">Authentication with Firebase</h3>
               </a>
             </div>
           </div>
