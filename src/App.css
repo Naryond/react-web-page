@@ -13,6 +13,10 @@ body {
   font-size: 44px;
 }
 
+/* .shadowed {
+  text-shadow: red -4px 0, cyan 4px 0;
+} */
+
 .header {
   height: 14em;
 }
@@ -127,14 +131,21 @@ body {
     justify-content: center;
   }
 
-  .screenshot {
+  .box {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+  }
+
+  .screenshot {
+    width: 70%;
     height: auto;
   }
 
   .profilePic {
     width: 100%;
     height: auto;
+  }
+  .line {
+    font-size: medium;
   }
 }
