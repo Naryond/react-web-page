@@ -11,7 +11,9 @@ function App() {
             You THINK it,
             <br />I DEVELOP it.
           </h1>
-          <h5 className="subtext">It&apos;s easy! I&apos;m a Front End developer.</h5>
+          <h5 className="subtext">
+            It&apos;s easy! I&apos;m a Front End developer.
+          </h5>
         </div>
       </header>
       <main id="home">
@@ -20,7 +22,7 @@ function App() {
           <br />
           <br />
           <div className="projects">
-            <div className="box">
+            <div>
               <a href="https://random-quotes-generator-xi.vercel.app/">
                 <img
                   className="screenshot"
@@ -30,7 +32,7 @@ function App() {
                 <h3 className="line">Random Quotes Generator</h3>
               </a>
             </div>
-            <div className="box">
+            <div>
               <a href="https://clearscore-tech-test.vercel.app/">
                 <img
                   className="screenshot"
@@ -40,7 +42,7 @@ function App() {
                 <h3 className="line">Idea Board (Clearscore challenge)</h3>
               </a>
             </div>
-            <div className="box">
+            <div>
               <a href="https://firebase-authentication-five.vercel.app/login/">
                 <img
                   className="screenshot"
@@ -52,8 +54,8 @@ function App() {
             </div>
           </div>
         </article>
-        <div className="leveling">
-          <p className="p" id="info">
+        <div>
+          <p id="info">
             I am <strong>Giuseppe Valeriani</strong> and I am based in London
             (U.K.)
           </p>
@@ -67,8 +69,8 @@ function App() {
             />
           </div>
           <article>
-            <div className="leveling">
-              <div className="block2">
+            <div>
+              <div>
                 <p className="history" id="background">
                   Born in Italy in 1985, I lived withing the country until 30
                   y/o when I decided to change my live starting to study to
