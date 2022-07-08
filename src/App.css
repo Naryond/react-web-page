@@ -1,13 +1,9 @@
 body {
-  padding: 1em;
+  margin: 1em;
 }
 
 .header {
-  height: 14em;
-}
-
-.pushbox {
-  height: 300px;
+  height: 15em;
 }
 
 .h1 {
@@ -27,6 +23,12 @@ body {
   justify-content: center;
 }
 
+.mid-section {
+  display: flex;
+  justify-content: center;
+  font-family: 'Raleway-Italic';
+}
+
 .screenshot {
   display: flex;
   justify-content: center;
@@ -41,12 +43,6 @@ body {
   justify-content: center;
   font-family: 'Raleway-Italic';
   font-size: small;
-}
-
-.h3 {
-  display: flex;
-  justify-content: center;
-  font-family: 'Raleway-Italic';
 }
 
 .screenshot:hover {

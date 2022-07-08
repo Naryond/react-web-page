@@ -6,7 +6,7 @@ function App() {
   return (
     <div>
       <header className="header" id="title">
-        <div className="pushbox">
+        <div>
           <h1 className="h1">
             You THINK it,
             <br />I DEVELOP it.
@@ -18,7 +18,7 @@ function App() {
       </header>
       <main id="home">
         <article id="portfolio">
-          <h3 className="h3">Here some of my projects</h3>
+          <h3 className="mid-section">Here some of my projects</h3>
           <br />
           <br />
           <div className="projects">
