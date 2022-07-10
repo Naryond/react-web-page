@@ -3,141 +3,38 @@ body {
 }
 
 .header {
-  height: 15em;
-}
-
-.h1 {
   font-family: 'Raleway';
+  font-size: 20px;
   display: flex;
-  justify-content: center;
-  font-size: 44px;
+  flex-direction: column;
+  align-items: center;
 }
 
-.subtext {
+.article {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .projects {
-  display: block;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.mid-section {
-  display: flex;
-  justify-content: center;
-  font-family: 'Raleway-Italic';
-}
-
-.screenshot {
-  display: flex;
-  justify-content: center;
-  width: 90%;
+.pic-size {
+  width: 40%;
   height: auto;
-  border-style: groove;
-  border-radius: 10%;
-}
-
-.line {
-  display: flex;
-  justify-content: center;
-  font-family: 'Raleway-Italic';
-  font-size: small;
-}
-
-.screenshot:hover {
-  transform: scale(1.02);
-}
-
-.personal {
-  display: flex;
-  justify-content: center;
-}
-
-.profilePic {
-  width: 50%;
-  height: auto;
-  border-radius: 15%;
-  border-style: groove;
-  display: flex;
-  justify-content: center;
 }
 
 @media only screen and (min-width: 768px) {
-  .h1 {
-    letter-spacing: 0.3em;
-    font-weight: 950;
-  }
-
   .header {
-    height: 26em;
-  }
-
-  .subtext {
-    font-size: 18px;
-  }
-
-  .aside {
-    display: flex;
-  }
-
-  .profilePic {
-    width: 100%;
-    height: auto;
-  }
-
-  .history {
-    display: block;
-    padding: 1em;
-  }
-
-  .projects {
-    display: flex;
-    justify-content: center;
-  }
-
-  .screenshot {
-    display: flex;
-    justify-content: space-evenly;
-    height: auto;
+    font-size: 40px;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .header {
-    height: 40em;
-  }
-
-  .subtext {
-    font-size: 44px;
-  }
-
-  .h1 {
-    letter-spacing: 0.4em;
-    font-weight: 950;
-    font-size: 90px;
-  }
-
-  .projects {
-    display: flex;
-    justify-content: center;
-  }
-
-  .box {
-    display: flex;
-    justify-content: center;
-  }
-
-  .screenshot {
-    width: 70%;
-    height: auto;
-  }
-
-  .profilePic {
-    width: 100%;
-    height: auto;
-  }
-  .line {
-    font-size: medium;
+    font-size: 60px;
   }
 }
