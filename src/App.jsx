@@ -11,7 +11,7 @@ function App() {
         <h5>It&apos;s easy! I&apos;m a Front End developer.</h5>
       </header>
       <div className="article">
-      <h3>Here some of my projects</h3>
+        <h3>Here some of my projects</h3>
         <div className="projects">
           <a href="https://random-quotes-generator-xi.vercel.app/">
             <img
@@ -20,23 +20,23 @@ function App() {
               alt="quote_generator"
             />
             <h3>Random Quotes Generator</h3>
-          </a>  
-            <a href="https://clearscore-tech-test.vercel.app/">
-              <img
-                className="pic-size"
-                src="https://i.ibb.co/3fnc6fm/idea-Board.jpg"
-                alt="idea_board"
-              />
-              <h3>Idea Board (Clearscore challenge)</h3>
-            </a>        
-            <a href="https://firebase-authentication-five.vercel.app/login/">
-              <img
-                className="pic-size"
-                src="https://i.ibb.co/HTp02cN/auth.png"
-                alt="login"
-              />
-              <h3>Authentication with Firebase</h3>
-            </a>
+          </a>
+          <a href="https://clearscore-tech-test.vercel.app/">
+            <img
+              className="pic-size"
+              src="https://i.ibb.co/3fnc6fm/idea-Board.jpg"
+              alt="idea_board"
+            />
+            <h3>Idea Board (Clearscore challenge)</h3>
+          </a>
+          <a href="https://firebase-authentication-five.vercel.app/login/">
+            <img
+              className="pic-size"
+              src="https://i.ibb.co/kH67sny/Firebase.png"
+              alt="login"
+            />
+            <h3>Database with Firebase</h3>
+          </a>
         </div>
       </div>
       <div>
