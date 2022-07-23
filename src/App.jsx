@@ -29,7 +29,7 @@ function App() {
             />
             <h3>Idea Board (Clearscore challenge)</h3>
           </a>
-          <a href="https://firebase-authentication-five.vercel.app/login/">
+          <a href="https://firebase-database-kkm9fdza4-naryond.vercel.app/login">
             <img
               className="pic-size"
               src="https://i.ibb.co/kH67sny/Firebase.png"
